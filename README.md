@@ -70,4 +70,4 @@ Simple HTTP benchmark results (wrk) with `keep-alive` connection
 ### Notes
 
 * Some frameworks used with [uWebSockets](https://github.com/uWebSockets/uWebSockets) server.
-* This runs a benchmark for 5 minutes, using 12 threads, and keeping 400 HTTP connections open.
+* This [runs](https://github.com/hbakhtiyor/node-frameworks-benchmark/blob/master/run#L9-L12) a benchmark for 5 minutes, using 12 threads, and keeping 400 HTTP connections open.
