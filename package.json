@@ -1,0 +1,22 @@
+{
+  "name": "node-frameworks-benchmark",
+  "version": "1.0.0",
+  "description": "Simple http benchmark for different nodejs frameworks using wrk",
+  "repository": "git@github.com:hbakhtiyor/node-frameworks-benchmark.git",
+  "author": "Abd ar-Rahman Hamidi <bakhtiyor.h@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "make"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "feathers": "^2.1.1",
+    "hapi": "^16.1.1",
+    "koa": "^2.2.0",
+    "micro": "^7.3.2",
+    "restify": "^4.3.0",
+    "sails": "^0.12.13",
+    "total.js": "^2.5.0",
+    "uws": "^0.14.5"
+  }
+}

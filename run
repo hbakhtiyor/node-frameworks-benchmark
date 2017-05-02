@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+server="$1"
+NODE_ENV=production node ./servers/$server &
+pid=$!
+
+sleep 10
+
+wrk "http://127.0.0.1:8000/$2" \
+  -d 30s \
+  -c 400 \
+  -t 12 \
+  | grep 'Requests/sec' \
+  | awk -v server="$server" '{ print $2 " Requests/sec - " server }' >> results.txt
+
+kill $pid
