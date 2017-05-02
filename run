@@ -7,7 +7,7 @@ pid=$!
 sleep 10
 
 wrk "http://127.0.0.1:8000/$2" \
-  -d 30s \
+  -d 5m \
   -c 400 \
   -t 12 \
   | grep 'Requests/sec' \
