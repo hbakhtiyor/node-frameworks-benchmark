@@ -9,6 +9,7 @@
     "postinstall": "make"
   },
   "dependencies": {
+    "aero": "^2.0.8",
     "express": "^4.15.2",
     "feathers": "^2.1.1",
     "hapi": "^16.1.1",
