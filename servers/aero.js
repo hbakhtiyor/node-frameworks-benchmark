@@ -24,4 +24,6 @@ server.run({
 			http: 8000
 		}
 	}
+}).then(()=>{
+	console.log('AeroJS listening @ port 8000');
 });
