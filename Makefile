@@ -1,4 +1,5 @@
 all:
+	@./run aero.js
 	@./run express.js
 	@./run hapi.js
 	@./run rawnode.js
