@@ -1,0 +1,9 @@
+{
+  "name": "index",
+  "logic": "index.js",
+  "endpointsDefault": false,
+  "endpoints": {
+    "get /": "list",
+    "get /keep-alive": "alive"
+  }
+}
