@@ -7,7 +7,7 @@ const rest = new Restocat({
 
 rest.locator.registerInstance('definedRoutes', {index: '/'});
 
-rest.createServer().listen(3000)
-  .then(() => console.log('Restocat listen on 3000'))
+rest.createServer().listen(8000)
+  .then(() => console.log('Restocat listen on 8000'))
   .catch(reason => console.error(reason));
 
