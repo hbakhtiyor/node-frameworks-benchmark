@@ -1,3 +1,11 @@
+![Selo Dollynho](/assets/selo_dollynho_x1.png?raw=true)
+
+HTTP benchmarks that outputs only `hello world` are very useful, specially
+for deciding which framework you should use and how your application will perform
+in real life. Because of that this repository has been awarded with the
+`Selo Dollynho` stamp, given by the highest tech authority in Brazil: Dollynho
+itself.
+
 > Simple HTTP benchmark for different nodejs frameworks using wrk
 
 ## Prerequisites
